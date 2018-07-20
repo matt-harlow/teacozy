@@ -34,6 +34,11 @@ nav {
 	margin-right: 10px;
 }
 
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
 a {
 	color: seashell;
 	opacity: 0.9;
