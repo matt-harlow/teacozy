@@ -1,3 +1,40 @@
-h1 {
-	color: red;
+/* Universal Body */
+
+body {
+	margin: 0;
+	background-color: black;
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+}
+
+/* Header */
+
+header {
+	display: flex;
+	align-items: center;
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+}
+
+.logo {
+	display: flex;
+	flex-grow: 1;
+}
+
+.logo img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+nav {
+	margin-right: 10px;
+}
+
+a {
+	color: seashell;
+	opacity: 0.9;
 }
