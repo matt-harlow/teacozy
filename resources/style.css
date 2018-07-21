@@ -1,4 +1,4 @@
-/* Universal Body */
+/* Universal */
 
 body {
 	margin: 0;
@@ -7,17 +7,22 @@ body {
 	font-size: 22px;
 	color: seashell;
 	opacity: 0.9;
+	text-align: center;
 }
 
 /* Header */
 
 header {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
+	position: fixed;
+	z-index: 1;
 	height: 69px;
 	width: 100%;
 	border-bottom: 1px solid seashell;
-	position: fixed;
+	/* Erase */
+	background-color: black;
 }
 
 .logo {
@@ -43,3 +48,32 @@ a {
 	color: seashell;
 	opacity: 0.9;
 }
+
+/* Content Container */
+
+.content {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	/* Erase */
+	background-color: #FF9800;
+}
+
+/* Mission Section */
+
+.mission {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	height: 700px;
+	margin-top: 69px;
+}
+
+.mission-text {
+	width: 100%;
+	background-color: black;
+}
+
+/* Tea of the Month */
