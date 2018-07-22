@@ -10,6 +10,10 @@ body {
 	text-align: center;
 }
 
+p {
+	opacity: 1;
+}
+
 /* Header */
 
 header {
@@ -107,3 +111,32 @@ a {
 	display: block;
 	margin-bottom: 10px;
 }
+
+/* Locations */
+
+.locations {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 1200px;
+	height: 500px;
+}
+
+.locations h2 {
+	margin-bottom: 15px;
+}
+
+.boxes {
+	display: flex;
+	justify-content: center;
+}
+
+.location {
+	display: block;
+	width: 300px;
+	background-color: black;
+	margin: 0px 20px 0px 20px;
+}
+
+
