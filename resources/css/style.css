@@ -1,0 +1,176 @@
+/* Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Universal */
+
+body {
+	background-color: black;
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+}
+
+h2,
+h3,
+h4 {
+	padding: 10px;
+	opacity: 0.9;
+}
+
+h5 {
+	margin: 30px 0;
+}
+
+/* Header */
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	/* Erase */
+	background-color: black;
+}
+
+.logo {
+	display: flex;
+	flex-grow: 1;
+}
+
+.logo img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+nav {
+	margin-right: 10px;
+}
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+a {
+	color: seashell;
+	opacity: 0.9;
+}
+
+/* Content Container */
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+/* Mission Section */
+
+.mission {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	height: 700px;
+	margin-top: 69px;
+}
+
+.mission-text {
+	width: 100%;
+	background-color: black;
+}
+
+/* Tea of the Month */
+
+.store {
+	width: 1000px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item {
+	padding: 5px;
+}
+
+.item img {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+}
+
+.item span {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+/* Locations */
+
+.locations {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 1200px;
+	height: 500px;
+}
+
+
+
+.boxes {
+	display: flex;
+	justify-content: center;
+}
+
+.location {
+	display: block;
+	width: 300px;
+	background-color: black;
+	margin: 5px 20px;
+	padding: 10px;
+}
+
+.location p {
+	margin: 30px 0px;
+	opacity: 1;
+}
+
+/* Contact */
+
+.contact {
+	width: 100%;
+	height: 200px;
+}
+
+/* Footer */
+
+footer {
+	display: block;
+	width: 100%;
+	padding: 20px;
+}
+
+footer h5 {
+	text-align: left;
+	margin-left: 20px;
+}
+
+
